@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+#logo {
+  width: 268px;
+  height: auto;
+}
+.menu-items {
+  margin-right: 2%;
+}
+.drop-menu {
+  display: none;
+  width: 220px;
+  height: 220px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  font-family: roboto;
+  font-size: 15px;
+  color: #ababab;
+}
+#img {
+  margin-left: 17%;
+  margin-right: 30%;
+}
+header {
+  display: contents;
+  height: 70px;
+  position: fixed;
+}
+
+.menu-items:hover {
+  color: #00b39b;
+}
+.menu-items:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px black;
+  width: 185px;
+  height: 200px;
+  margin-left: -120px;
+}
+.drop-menu-item {
+  color: #ababab;
+  list-style: none;
+  margin-top: 17px;
+  width: 185px;
+  height: 20px;
+  margin-left: -20px;
+}
+.drop-menu-item:hover {
+  width: 100%;
+  color: #00b39b;
+  background-color: #ababab42;
+  width: 185px;
+  height: 20px;
+}
+#image {
+  margin-left: 48%;
+  margin-top: 50px;
+}
+#title {
+  margin-left: 25%;
+  color: #00b39b;
+  font-size: 2.125rem;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+}
+#paragraphe {
+  display: flex;
+  flex-direction: row;
+}
+#p1 {
+  display: inline-block;
+  margin-right: 30px;
+  width: 33%;
+  margin-left: 250px;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  line-height: 1.75;
+}
+#p2 {
+  display: inline-block;
+  width: 33%;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  line-height: 1.75;
+}
+#boxs {
+  display: flex;
+  flex-direction: row;
+}
+#box1 {
+  height: 280px;
+  width: 17%;
+  color: white;
+  background-color: #00ccb1;
+  padding: 35px;
+  border-radius: 10px;
+  margin-left: 250px;
+}
+select {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+option {
+  color: black;
+}
+#box2 {
+  height: 280px;
+  width: 17%;
+  color: white;
+  background-color: #3d83d8;
+  padding: 35px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+#box3 {
+  height: 280px;
+  width: 17%;
+  color: white;
+  background-color: #1b2734;
+  padding: 35px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
